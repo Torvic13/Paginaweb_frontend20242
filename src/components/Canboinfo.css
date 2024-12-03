@@ -1,0 +1,55 @@
+/* Estilo para el texto dorado */
+.highlight-text {
+    color: #DAA520; /* Un tono dorado */
+  }
+  /* Contenedor general de las tarjetas */
+.canbo-title {
+    font-weight: bold;           /* Hace el texto en negrita */
+    text-align: center;          /* Centra el texto */
+    font-size: 2rem;             /* Tamaño de fuente grande */
+    margin-bottom: 20px;         /* Espaciado debajo del título */
+    color: #ffffff;              /* Color del texto */
+  }
+  .canbo-cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #333;
+      padding: 2rem;
+    }
+    
+    /* Estilo individual para cada tarjeta */
+    .canbo-card {
+      background-color: #000000;
+      border-radius: 20px;         /* Bordes redondeados (puedes ajustar el valor para más o menos curvatura) */
+      color: #ffffff;
+      padding: 20px; /* Añadir un poco de relleno */
+    margin-bottom: 10px; /* Añadir un pequeño espacio abajo */
+    border-bottom: 3px solid #DAA520; /* Línea dorada */
+      text-align: center;
+      width: 20rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Estilo para las imágenes de cada tarjeta */
+    .canbo-icon {
+      width: 200px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    
+    /* Título dentro de cada tarjeta */
+    .canbo-card h3 {
+        color: #DAA520;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.8rem;
+    }
+    
+    /* Descripción dentro de cada tarjeta */
+    .canbo-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    

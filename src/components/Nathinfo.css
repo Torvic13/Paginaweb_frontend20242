@@ -1,0 +1,64 @@
+/* Estilos para la tarjeta */
+.custom-card {
+    width: 45rem;            /* Aumenta el tamaño de la tarjeta */
+    margin: 0.2rem;
+    margin-top: 3rem;
+  }
+  
+  /* Estilo para la imagen dentro de la tarjeta */
+  .custom-img {
+    width: 100%;             /* La imagen ocupa todo el ancho de la tarjeta */
+    height: auto;            /* Mantiene la proporción de la imagen */
+  }
+  
+  /* Estilos para el contenedor del texto */
+  .text-container {
+    text-align: center;      /* Centra todo el texto */
+    margin-top: 2rem;        /* Añade un margen superior entre la tarjeta y el texto */
+  }
+  
+  /* Estilos para los títulos y párrafo en azul oscuro */
+  .text-blue {
+    color: #003366;          /* Azul oscuro */
+  }
+  
+  /* Estilos para los textos en negrita */
+  .font-weight-bold {
+    font-weight: bold;       /* Aplica negrita */
+  }
+  
+  /* Estilos para el contenedor de BENEFICIOS NUTRICIONALES */
+  .container-fluid {
+    background-color: #103B71; /* Fondo azul oscuro */
+    padding: 30px;            /* Añade espacio alrededor del texto */
+    width: 100%;                /* Asegura que ocupe todo el ancho */
+    height: auto;               /* Altura automática para ajustarse al contenido */
+    margin-top: 0;              /* Elimina cualquier margen superior */
+    
+  }
+  
+  /* Estilo para el texto dentro del contenedor */
+  .benefits-text {
+    color: white;               /* Texto blanco */
+    text-align: center;         /* Centra el texto */
+    font-size: 1.8rem;          /* Tamaño de fuente grande */
+    font-weight: bold;          /* Aplica negrita */
+  }
+  
+  /* Estilos para las columnas de beneficios */
+  .benefits-columns {
+    display: flex;
+    flex-wrap: wrap;           /* Asegura que las columnas se ajusten en pantallas pequeñas */
+    justify-content: center;   /* Centra las columnas */
+    margin-top: 1.5rem;        /* Espaciado superior entre el texto y las columnas */
+  }
+  
+  /* Estilo para los elementos dentro de las columnas */
+  .benefits-item {
+    color: white;              /* Texto blanco */
+    font-size: 1.1rem;         /* Ajusta el tamaño de la fuente */
+    text-align: center;        /* Centra el texto en cada columna */
+    margin: 0.5rem 0;          /* Añade un margen entre cada ítem */
+  }
+
+  

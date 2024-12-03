@@ -1,0 +1,97 @@
+/* Estilos generales para el navbar */
+.navbar {
+  background-color: #dc3545; /* Rojo (bg-danger) */
+}
+
+/* Logo de SuperPet */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Ajustes de los enlaces del menú de navegación */
+.navbar-nav .nav-item {
+    margin-left: 20px;  /* Ajusta el margen izquierdo para separar los elementos */
+    margin-right: 20px; /* Ajusta el margen derecho para separar los elementos */
+  }
+  
+  /* Si prefieres añadir más espacio entre todos los enlaces, ajusta el margen de los enlaces */
+  .navbar-nav .nav-link {
+    padding: 0.75rem 1.5rem; /* Aumenta el padding para mayor separación entre los enlaces */
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+.navbar-nav .nav-link:hover {
+  color: #ccc; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilos para los botones de usuario y carrito */
+.navbar-nav .btn {
+  background: none;
+  border: none;
+  color: #fff; /* Color de los iconos */
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.navbar-nav .btn img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.navbar-nav .btn:hover img {
+  transform: scale(1.1); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+/* Alineación del navbar cuando se colapsa en pantallas pequeñas */
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* El botón de hamburguesa no debe brillar */
+.navbar-toggler {
+  border: none;
+  outline: none; /* Eliminar el brillo al hacer clic */
+}
+
+
+
+/* Ajuste del menú en pantallas pequeñas */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Alineación de los enlaces de navegación y los iconos */
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0; /* Margen entre los elementos en pantallas pequeñas */
+  }
+
+  /* Los iconos deben alinearse correctamente */
+  .navbar-nav .ml-auto {
+    margin-left: 0;
+  }
+
+  .navbar-nav .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    flex-direction: column; /* Los elementos deben apilarse en columnas */
+    align-items: center; /* Alineación de los elementos en el centro */
+  }
+
+  .navbar-nav {
+    margin-top: 1rem; /* Añadir espacio arriba de los enlaces */
+  }
+}
+

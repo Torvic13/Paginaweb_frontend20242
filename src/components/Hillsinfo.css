@@ -1,0 +1,106 @@
+/* Estilos para la tarjeta */
+.custom-card {
+    width: 45rem;            /* Aumenta el tamaño de la tarjeta */
+    margin: 0.2rem;
+    margin-top: 3rem;
+  }
+  
+  /* Estilo para la imagen dentro de la tarjeta */
+  .custom-img {
+    width: 100%;             /* La imagen ocupa todo el ancho de la tarjeta */
+    height: auto;            /* Mantiene la proporción de la imagen */
+  }
+  
+  /* Estilos para el contenedor del texto */
+  .text-container {
+    text-align: center;      /* Centra todo el texto */
+    margin-top: 2rem;        /* Añade un margen superior entre la tarjeta y el texto */
+  }
+  
+  /* Estilos para los títulos y párrafo en azul oscuro */
+  .text-blue {
+    color: #003366;          /* Azul oscuro */
+  }
+  
+  /* Estilos para los textos en negrita */
+  .font-weight-bold {
+    font-weight: bold;       /* Aplica negrita */
+  }
+  
+/* Estilo para el contenedor que tiene las columnas */
+.benefits-columns {
+    display: flex;               /* Usamos Flexbox para alinear los elementos en línea */
+    justify-content: space-between; /* Espacio entre los ítems */
+    flex-wrap: nowrap;            /* No se permite que los ítems se muevan a la siguiente línea */
+    padding: 0 10px;              /* Espaciado alrededor de las columnas */
+    margin-top: 1rem;             /* Espaciado por encima de la fila */
+  }
+  
+  /* Estilo para los elementos dentro de las columnas */
+  .benefits-item {
+    flex: 1 1 16%;               /* Cada ítem ocupa el 16% del ancho total (para 6 elementos) */
+    text-align: center;          /* Centra el texto dentro de cada columna */
+    color: white;                /* Color del texto blanco */
+    font-size: 1.1rem;           /* Tamaño de fuente */
+    margin: 1.3rem 0;            /* Márgenes para dar espacio entre los ítems */
+  }
+  
+  /* Estilo para el contenedor de BENEFICIOS NUTRICIONALES */
+  .container-fluid {
+    background-color: #103B71;  /* Fondo azul oscuro */
+    padding: 30px;              /* Espaciado alrededor del contenido */
+    width: 100%;                /* Ancho completo */
+    margin-top: 0;              /* Sin margen superior */
+  }
+  
+  /* Estilo para el título de BENEFICIOS NUTRICIONALES */
+  .benefits-text {
+    color: white;               /* Texto blanco */
+    text-align: center;         /* Centra el texto */
+    font-size: 2rem;            /* Tamaño de fuente grande */
+    font-weight: bold;          /* Aplica negrita */
+  }
+  
+  
+ /* Contenedor de las tarjetas de Hill's */
+.diet-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  /* Estilos generales para ambas tarjetas */
+  .diet-card {
+    width: 22rem;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Estilo específico para Prescription Diet */
+  .prescription-diet {
+    background-color: #003366;
+  }
+  
+  /* Estilo específico para Science Diet */
+  .science-diet {
+    background-color: #c11a2b;
+  }
+  
+  /* Estilo para las imágenes de los logos */
+  .diet-logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para el primer párrafo de cada tarjeta */
+.diet-card p:first-of-type {
+    font-weight: bold;
+    font-size: 1.4rem; /* Ajusta el tamaño para que sea más grande */
+    margin-bottom: 1rem;
+  }
